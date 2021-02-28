@@ -47,10 +47,7 @@ ul {
 	outline: none
 }
 
-
-
 /* default css*/
-.container {}
 
 /*  header start */
 header {
@@ -63,7 +60,7 @@ header {
 	justify-content: space-between;
 }
 
-header > div {
+header>div {
 	height: 70px;
 	color: #fff;
 }
@@ -173,7 +170,7 @@ header > div {
 	color: #22a8e7;
 }
 
-.hd_btn div:last-child > a {
+.hd_btn div:last-child>a {
 	color: #fff;
 	padding: 8px 20px;
 	margin: 10px;
@@ -183,7 +180,7 @@ header > div {
 	transition: 0.5s;
 }
 
-.hd_btn div:last-child > a:hover {
+.hd_btn div:last-child>a:hover {
 	box-shadow: 0 0 50px #22a8e7;
 }
 
@@ -296,13 +293,13 @@ aside.active .site-btn li:hover a {
 	border-bottom: none;
 }
 
-aside.active .site-btn ul li > a:last-child,
-aside .site-btn ul li > a:first-child {
+aside.active .site-btn ul li>a:last-child,
+aside .site-btn ul li>a:first-child {
 	display: block;
 }
 
-aside.active .site-btn ul li > a:first-child,
-aside .site-btn ul li > a:last-child {
+aside.active .site-btn ul li>a:first-child,
+aside .site-btn ul li>a:last-child {
 	display: none;
 }
 
@@ -356,7 +353,7 @@ aside.active .site-btn ul li:last-child a {
 	background-color: #1b2039;
 }
 
-.welcome > div {
+.welcome>div {
 	width: 1400px;
 	height: 600px;
 }
@@ -471,22 +468,22 @@ input[name="tabmenu"] {
 	display: none;
 }
 
-input[id="tab1"]:checked ~ .tab1 {
+input[id="tab1"]:checked~.tab1 {
 	opacity: 1;
 }
 
-input[id="tab2"]:checked ~ .tab2 {
+input[id="tab2"]:checked~.tab2 {
 	margin-top: -500px;
 	opacity: 1;
 }
 
-input[id="tab1"]:checked ~ .hotalbum-btn label[for="tab1"],
-input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
+input[id="tab1"]:checked~.hotalbum-btn label[for="tab1"],
+input[id="tab2"]:checked~.hotalbum-btn label[for="tab2"] {
 	border-radius: 30px;
 	background-color: skyblue;
 }
 
-.hotalbum-inner > div {
+.hotalbum-inner>div {
 	width: 100%;
 	height: 100%;
 	color: #fff;
@@ -554,11 +551,10 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 .slick-prev {
 	left: -50px;
 }
-
+/* 
 .slick-next {
-	/* right: -50px; */
-}
-
+	right: -50px;
+} */
 .slick-prev:before,
 .slick-next:before {
 	font-size: 42px;
@@ -593,7 +589,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	text-align: center;
 }
 
-.chart-title > h1 {
+.chart-title>h1 {
 	display: inline-block;
 	color: #fff;
 	text-align: center;
@@ -612,7 +608,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	align-items: center;
 }
 
-.chart-list-inner > div {
+.chart-list-inner>div {
 	width: 33.3%;
 	color: #fff;
 	height: 500px;
@@ -621,7 +617,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	flex-direction: column;
 }
 
-.chart-list > div {
+.chart-list>div {
 	flex: 1;
 	font-size: 32px;
 	margin-left: 50px;
@@ -637,7 +633,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	border-bottom: none;
 }
 
-.chart-song > div {
+.chart-song>div {
 	height: 80px;
 	padding: 20px 0;
 }
@@ -870,7 +866,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	text-align: center;
 }
 
-.musicvideo-title > h1 {
+.musicvideo-title>h1 {
 	display: inline-block;
 	color: #fff;
 	text-align: center;
@@ -888,35 +884,35 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	display: none;
 }
 
-.music-content > div {
+.music-content>div {
 	width: 20%;
 	height: 100%;
 	padding: 20px;
 	float: left;
 }
 
-.music-content > div > div {
+.music-content>div>div {
 	height: 50%;
 }
 
-.music-content > div > div:first-child {
+.music-content>div>div:first-child {
 	position: relative;
 	overflow: hidden;
 }
 
-.music-content > div > div:first-child a {
+.music-content>div>div:first-child a {
 	width: 100%;
 	height: 100%;
 	position: absolute;
 }
 
-.music-content > div > div:first-child img {
+.music-content>div>div:first-child img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
-.music-content > div > div:first-child:after {
+.music-content>div>div:first-child:after {
 	content: attr(attr-time);
 	position: absolute;
 	right: 0;
@@ -928,13 +924,13 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	background-color: #000;
 }
 
-.music-content > div > div:first-child:hover:before {
+.music-content>div>div:first-child:hover:before {
 	transform: scale(1);
 	opacity: 1;
 	visibility: visible;
 }
 
-.music-content > div > div:first-child:before {
+.music-content>div>div:first-child:before {
 	content: "\ea3f";
 	font-family: xeicon;
 	text-align: center;
@@ -953,13 +949,13 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
-.music-content > div > div:first-child a:hover:before {
+.music-content>div>div:first-child a:hover:before {
 	transform: scale(1);
 	opacity: 1;
 	visibility: visible;
 }
 
-.music-content > div > div:first-child a:before {
+.music-content>div>div:first-child a:before {
 	content: "\ea3f";
 	font-family: xeicon;
 	text-align: center;
@@ -978,17 +974,17 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
-.music-content > div > div:last-child {
+.music-content>div>div:last-child {
 	padding: 20px;
 	font-size: 17px;
 }
 
-.music-content > div > div:last-child h4 {
+.music-content>div>div:last-child h4 {
 	position: relative;
 	display: inline-block;
 }
 
-.music-content > div > div:last-child h4::before {
+.music-content>div>div:last-child h4::before {
 	content: '뮤비';
 	position: absolute;
 	top: 0;
@@ -1001,7 +997,7 @@ input[id="tab2"]:checked ~ .hotalbum-btn label[for="tab2"] {
 	border: 1px solid #fff;
 }
 
-.music-content > div > div:last-child p {
+.music-content>div>div:last-child p {
 	font-size: 14px;
 	margin-top: 30px;
 }
@@ -1031,19 +1027,19 @@ input[name="tabmenu1"] {
 	display: none;
 }
 
-input[id="tab3"]:checked ~ .tab3,
-input[id="tab4"]:checked ~ .tab4 {
+input[id="tab3"]:checked~.tab3,
+input[id="tab4"]:checked~.tab4 {
 	display: block;
 }
 
-input[id="tab3"]:checked ~ .musicvideo-btn label[for="tab3"],
-input[id="tab4"]:checked ~ .musicvideo-btn label[for="tab4"] {
+input[id="tab3"]:checked~.musicvideo-btn label[for="tab3"],
+input[id="tab4"]:checked~.musicvideo-btn label[for="tab4"] {
 	background-color: red;
 	border-radius: 10px;
 	letter-spacing: 2px;
 }
 
-input[id="tab4"]:checked ~ .musicvideo-btn label[for="tab4"] {
+input[id="tab4"]:checked~.musicvideo-btn label[for="tab4"] {
 	background-color: deepskyblue;
 }
 
@@ -1069,7 +1065,7 @@ input[id="tab4"]:checked ~ .musicvideo-btn label[for="tab4"] {
 	text-align: center;
 }
 
-.genre-title > h1 {
+.genre-title>h1 {
 	display: inline-block;
 	color: #fff;
 	text-transform: capitalize;
@@ -1293,53 +1289,53 @@ footer {
 	color: skyblue;
 }
 
-.footer-inner > div:nth-child(2) {
+.footer-inner>div:nth-child(2) {
 	padding: 0 20px;
 	color: #fff;
 }
 
-.footer-inner > div:nth-child(2) div {
+.footer-inner>div:nth-child(2) div {
 	margin-top: 10px;
 	padding: 10px;
 }
 
-.footer-inner > div:nth-child(2) div a {
+.footer-inner>div:nth-child(2) div a {
 	margin-right: 10px;
 }
 
-.footer-inner > div:nth-child(2) img {
+.footer-inner>div:nth-child(2) img {
 	border-radius: 10px;
 }
 
-.footer-inner > div:nth-child(3) {
+.footer-inner>div:nth-child(3) {
 	flex: 2;
 	color: #fff;
 	padding: 50px;
 }
 
-.footer-inner > div:nth-child(3) big {
+.footer-inner>div:nth-child(3) big {
 	display: block;
 	font-size: 14px;
 	margin: 10px 0;
 }
 
-.footer-inner > div:nth-child(3) small {
+.footer-inner>div:nth-child(3) small {
 	display: block;
 	margin: 10px 0
 }
 
-.footer-inner > div:nth-child(3) div {
+.footer-inner>div:nth-child(3) div {
 	margin-top: 30px;
 }
 
-.footer-inner > div:nth-child(3) div i {
+.footer-inner>div:nth-child(3) div i {
 	padding-top: 5px;
 	font-size: 28px;
 }
 
-.footer-inner > div:nth-child(3) div a:nth-child(1),
-.footer-inner > div:nth-child(3) div a:nth-child(2),
-.footer-inner > div:nth-child(3) div a:nth-child(3) {
+.footer-inner>div:nth-child(3) div a:nth-child(1),
+.footer-inner>div:nth-child(3) div a:nth-child(2),
+.footer-inner>div:nth-child(3) div a:nth-child(3) {
 	background-color: #fff;
 	width: 40px;
 	height: 40px;
@@ -1351,26 +1347,26 @@ footer {
 	display: inline-block;
 }
 
-.footer-inner > div:nth-child(3) div a:nth-child(1):hover,
-.footer-inner > div:nth-child(3) div a:nth-child(2):hover,
-.footer-inner > div:nth-child(3) div a:nth-child(3):hover {
+.footer-inner>div:nth-child(3) div a:nth-child(1):hover,
+.footer-inner>div:nth-child(3) div a:nth-child(2):hover,
+.footer-inner>div:nth-child(3) div a:nth-child(3):hover {
 	background-color: #000;
 	color: #fff;
 }
 
-.footer-inner > div:nth-child(3) div a:nth-child(1) {
+.footer-inner>div:nth-child(3) div a:nth-child(1) {
 	color: rgb(4, 6, 126);
 }
 
-.footer-inner > div:nth-child(3) div a:nth-child(2) {
+.footer-inner>div:nth-child(3) div a:nth-child(2) {
 	color: red;
 }
 
-.footer-inner > div:nth-child(3) div a:nth-child(3) {
+.footer-inner>div:nth-child(3) div a:nth-child(3) {
 	color: rgb(7, 255, 119);
 }
 
-/* footer end  */
+/* footer */
 
 /* lang-modal */
 .lang-modal {
@@ -1414,23 +1410,23 @@ footer {
 	text-align: center;
 }
 
-.lang-inner > div {
+.lang-inner>div {
 	margin-top: 30px;
 	width: 350px;
 	height: 350px;
 	margin: auto;
 }
 
-.lang-inner > div > div {
+.lang-inner>div>div {
 	height: 20%;
 	border-bottom: 2px solid rgb(255, 254, 254);
 }
 
-.lang-inner > div > div:last-child {
+.lang-inner>div>div:last-child {
 	border-bottom: none;
 }
 
-.lang-inner > div div div {
+.lang-inner>div div div {
 	width: 50%;
 	height: 100%;
 	line-height: 60px;
@@ -1439,7 +1435,7 @@ footer {
 	color: #fff;
 }
 
-.lang-inner > div div div label {
+.lang-inner>div div div label {
 	padding-left: 5px;
 	width: 100%;
 	height: 100%;
@@ -1448,7 +1444,7 @@ footer {
 	letter-spacing: 3px;
 }
 
-.lang-inner > div div div input {
+.lang-inner>div div div input {
 	border-radius: 100%;
 	margin-left: 10px;
 }
@@ -1488,8 +1484,7 @@ footer {
 	color: deepskyblue;
 }
 
-/*lang-modal end*/
-/* event modal start*/
+/* event modal */
 .event-modal {
 	position: absolute;
 	top: 20%;
@@ -1529,20 +1524,21 @@ footer {
 
 .event-btn div:first-child {
 	float: left;
-	font-size: 11px;
-	font-weight: thin;
-	margin-top: 3px;
+	font-size: 12px;
+	font-weight: 300;
 	color: rgb(168, 166, 166);
+	margin-top: -2px;
 }
 
 .event-btn div:first-child input {
-	margin-top: 1px;
 	margin-left: 15px;
+	margin-top: 0px;
 	vertical-align: middle;
 }
 
 .event-btn div:last-child {
 	float: right;
+	margin-top: -2px;
 	font-size: 14px;
 	cursor: pointer;
 }
@@ -1553,6 +1549,8 @@ footer {
 	margin-right: 10px;
 	vertical-align: middle;
 }
+
+/* musice video modal */
 
 .musicvideo-modal {
 	position: fixed;
