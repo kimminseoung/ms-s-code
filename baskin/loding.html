@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .loding-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loding 1s 1.3s linear both;
+}
+.loding-inner div {
+  width: 250px;
+  height: 250px;
+  animation: rotate 1.3s linear both;
+}
+.loding-inner div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* @keyframes loding {
+  0% {
+    z-index: 111111;
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    z-index: -111111;
+    opacity: 0;
+    visibility: hidden;
+  }
+} */
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  </style>
+  
+</head>
+<body>
+  <div class="loding-inner">
+    <div><img src="img/loding.png"></div>
+  </div>
+</body>
+</html>
